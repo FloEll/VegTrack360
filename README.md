@@ -2,7 +2,7 @@
 
 **VegTrack360** is an innovative, cost-effective, open-source rotating camera system designed for continuous monitoring of weather impacts on vegetation and agriculture.  
 
-![VegTrack360 System](vt360)  
+![VegTrack360 System]([vt360](https://github.com/FloEll/VegTrack360/blob/main/vt360_images/vt360_prototypes.jpg))  
 
 ### Why VegTrack360?  
 Monitoring outdoor spaces effectively is a complex challenge. Traditional fixed cameras, like the [PhenoCam](https://phenocam.nau.edu/webcam/), offer limited perspectives, capturing only a single angle of a diverse and dynamic scene. To achieve a comprehensive 360-degree view, multiple cameras are typically required. While this setup is feasible with standard RGB cameras, it becomes prohibitively expensive when incorporating advanced sensors such as thermal cameras or spectrometers.  
