@@ -12,7 +12,7 @@ Monitoring outdoor spaces effectively is a complex challenge. Traditional fixed 
 ### The Solution  
 VegTrack360 addresses this challenge with a simple yet powerful rotating camera platform. By utilizing a single camera mounted on a rotating mechanism, the system creates seamless 360-degree panoramic images, offering a comprehensive view at a fraction of the cost. Whether you’re monitoring a backyard garden, a sprawling agricultural field, or a wildlife habitat, VegTrack360 delivers versatile and cost-effective imaging capabilities.  
 
-![Panoramic View Example](https://github.com/FloEll/VegTrack360/blob/main/vt360_images/vt360_panorama_image.tif)  
+![Panoramic View Example](https://github.com/FloEll/VegTrack360/blob/main/vt360_images/vt360_panorama_image.jpg)  
 
 ### Additional Features
 The VegTrack360 offers a simple GUI. After connecting to a computer or smartphone via WiFi, users can simply program the camera and start the image taking process:
