@@ -1,4 +1,4 @@
-# VegTrack360  
+# VegTrack360 - Open Source Vegetation Monitor
 
 **VegTrack360** is an innovative, cost-effective, open-source rotating camera system designed for continuous monitoring of weather impacts on vegetation and agriculture.  
 
