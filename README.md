@@ -21,7 +21,7 @@ The VegTrack360 offers a simple GUI. After connecting to a computer or smartphon
   
 VegTrack360 takes panoramic imaging a step further by enabling the re-projection of panoramic images into drone-style orthomosaics. This feature transforms panoramic views into practical, top-down representations of the monitored area, offering deeper insights into spatial patterns.  
 
-![Orthomosaic Example](orthomosaic)  
+![Orthomosaic Example](https://github.com/FloEll/VegTrack360/blob/main/vt360_images/vt360_v2_orthomosaic_old.png)
 
 ### What’s Inside This Repository?  
 This GitHub repository contains the files and code needed to build the **VegTrack360 Version 3**. Key features of this version include:  
