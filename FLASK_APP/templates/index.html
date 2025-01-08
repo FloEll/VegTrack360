@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VegTrack360</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            margin-bottom: 30px;
+        }
+        h2 {
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        input[type="number"] {
+            padding: 5px;
+            margin: 5px;
+            width: 80px;
+            text-align: center;
+        }
+        div.label {
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 30px;
+        }
+        /* Additional styling for the checkbox */
+        .checkbox-container {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>VegTrack360</h1>
+
+    <h2>Horizontal Movement</h2>
+    <div>
+        <input type="number" id="horizontalStart" value="0">
+        <input type="number" id="horizontalEnd" value="360">
+        <input type="number" id="horizontalStep" value="36">
+    </div>
+    <div class="label">
+        <label for="horizontalStart">Start</label>
+        <label for="horizontalEnd" style="margin-left: 65px;">End</label>
+        <label for="horizontalStep" style="margin-left: 65px;">Step</label>
+    </div>
+
+    <h2>Vertical Movement</h2>
+    <div>
+        <input type="number" id="verticalStart" value="60">
+        <input type="number" id="verticalEnd" value="120">
+        <input type="number" id="verticalStep" value="3">
+    </div>
+    <div class="label">
+        <label for="verticalStart">Start</label>
+        <label for="verticalEnd" style="margin-left: 65px;">End</label>
+        <label for="verticalStep" style="margin-left: 65px;">Step</label>
+    </div>
+
+    <!-- Checkbox for Stereo Mode -->
+    <div class="checkbox-container">
+        <input type="checkbox" id="stereoMode" name="stereoMode">
+        <label for="stereoMode">Stereo Mode</label>
+    </div>
+
+    <!-- Green Button -->
+    <button id="helloButton">Start taking pictures!</button>
+
+    <script>
+        document.getElementById('helloButton').addEventListener('click', function() {
+            const horizontalStart = document.getElementById('horizontalStart').value;
+            const horizontalEnd = document.getElementById('horizontalEnd').value;
+            const horizontalStep = document.getElementById('horizontalStep').value;
+            const verticalStart = document.getElementById('verticalStart').value;
+            const verticalEnd = document.getElementById('verticalEnd').value;
+            const verticalStep = document.getElementById('verticalStep').value;
+            const stereoMode = document.getElementById('stereoMode').checked; // Get checkbox state
+
+            const data = {
+                horizontalStart,
+                horizontalEnd,
+                horizontalStep,
+                verticalStart,
+                verticalEnd,
+                verticalStep,
+                stereoMode // Add stereo mode to the data object
+            };
+
+            fetch('/hello', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            });
+        });
+    </script>
+</body>
+</html>
+
