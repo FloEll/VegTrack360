@@ -29,9 +29,9 @@ This GitHub repository contains the files and code needed to build the **VegTrac
 - Stereo camera functionality for enhanced imaging applications.  
 
 ### Further Resources  
-- **[Project Overview on Hackaday.io](https://hackaday.io/vegtrack360v3):** A high-level summary of the VegTrack360 system.  
-- **[Step-by-Step Build Guide on Instructables.com](https://www.instructables.com/preview/EJF3W6IM4TWLL8W/):** A detailed tutorial to build the VegTrack360 from scratch.  
-- **[Test Dataset on 4TU.ResearchData](https://data.4tu.nl/datasets/abcdefg):** Access raw images and panoramic data captured with the VegTrack360.  
+- **[Project Overview on Hackaday.io]([https://hackaday.io/vegtrack360v3)](https://hackaday.io/project/199359-vegtrack360-open-source-vegetation-monitor):** A high-level summary of the VegTrack360 system.  
+- **[Step-by-Step Build Guide on Instructables.com](https://www.instructables.com/Rotating-Vegetation-Monitoring-Camera-VegTrack360-/):** A detailed tutorial to build the VegTrack360 from scratch.  
+- **[Test Dataset on 4TU.ResearchData](https://data.4tu.nl/datasets/abcdefg):** (to be linked soon) Access raw images and panoramas captured with the VegTrack360 v3.  
 
 ### Acknowledgments  
 This project was made possible with funding from the **NWO Open Science Fund**. We are deeply grateful for their support in advancing open science and innovation.  
